@@ -1,1 +1,10 @@
 # Sales-Forecasting-using-ARIMA-and-SARIMAX-Models
+
+This project focuses on forecasting monthly champagne sales using historical data. Time series forecasting relies on identifying patterns in past observations to make informed predictions about future values. In the case of champagne sales, the data exhibits both a general trend and recurring seasonal patterns, making it suitable for a time series approach. The first step in this analysis involves visually inspecting the data to understand its structure. By plotting the monthly sales, one can observe how sales have evolved over time, revealing any long-term increases, sudden drops, or repeating cycles.
+
+However, time series data in its raw form often contains trends and seasonality that make it unsuitable for direct modeling. Therefore, the data must be transformed into a more stable form before applying forecasting techniques. This transformation is done by removing trends and leveling out fluctuations, resulting in what is called a stationary series. A stationary time series is one whose characteristics do not change over time, which is a critical assumption for many time series models.
+
+To determine the structure of the model, we examine how the current sales figures are related to previous ones. This relationship is explored by looking at how past values influence future ones, both directly and indirectly. Once this relationship is understood, we build the forecasting model, which is designed to learn from the historical data and produce future predictions. The ARIMA model used in this project is capable of capturing both short-term and longer-term patterns in the data by combining several modeling components into one framework.
+
+After the model is trained and evaluated, it is used to make predictions about future champagne sales. These predictions help visualize what the sales might look like in the coming months and provide valuable insight for planning and decision-making. The approach taken in this project is widely applicable in business settings where anticipating future demand is essential for inventory management, marketing strategies, and financial planning.
+
